@@ -18,7 +18,3 @@
 [HTML](https://luiscandidohonorio.github.io/jogosweb/atividadeconhecimento.html)
 
 [HTML](https://luiscandidohonorio.github.io/jogosweb/atividadejogosdigitais.html)
-
-[PDF](https://luiscandidohonorio.github.io/jogosweb/1882-Texto_do_artigo-5812-1-10-20180927.pdf)
-
-[DOCX](https://luiscandidohonorio.github.io/jogosweb/SUPER_MÁRIO_BROS_x_SYOBON_ACTION.docx)

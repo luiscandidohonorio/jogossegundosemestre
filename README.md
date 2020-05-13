@@ -13,3 +13,5 @@
 
 [HTML](https://luiscandidohonorio.github.io/jogosweb/atividadeconhecimento.html)
 
+[HTTML](https://luiscandidohonorio.github.io/jogosweb/atividadeexemplo.html)
+

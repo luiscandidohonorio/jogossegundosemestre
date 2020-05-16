@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Jogos para Web</title>
+<script>
+window.onload= function() {
+document.getElementById("Ola").addEventListener("click", function() {
+alert("Bem-vindo à Aula de Javascript");}, 
+false);
+};
+</script>
+</head>
+<body>
+  <canvas width=400 height=300 id="teste" style="border:1px solid #d3d3d3;">
+   Este Browser não suporta HTML5
+  </canvas>
+  <script>
+  
+//Retorna o elemento Canvas
+   function e(n){ return document.getElementById(n)}
+
+//Limpa a tela, desenhando um novo retângulo vazio nesta.
+   function clear(){e("teste").getContext("2d").clearRect(0,0,_width,_height)}
+
+//Define o tamanho da tela
+   var _width = window.innerWidth - 30;
+   var _height = window.innerHeight -30;
+
+   e("teste").width = _width;
+   e("teste").height = _height;
+
+//Cria um número aleatório para desenhar o primeiro circulo;
+   var x=Math.floor((Math.random()*_width/2)+40),
+       y=Math.floor((Math.random()*_height/2)+40);
+
+//Variáveis de incrementação
+   var sx=1, sy=1;
+
+//Desenha o primeiro circulo
+   var ctx = e("teste").getContext("2d");
+   ctx.beginPath();
+   ctx.arc(sx,sy,40,0,2*Math.PI);
+   ctx.stroke();
+
+//Loop de animação
+   function loop(){
+    if(x>_width-40||x<40)sx*=-1;
+    if(y>_height-40||y<40)sy*=-1;
+    x+=sx;y+=sy
+    clear();
+    var ctx=e("teste").getContext("2d");
+
+    ctx.beginPath();
+    ctx.arc(x,y,40,0,2*Math.PI);
+    ctx.stroke();
+
+//Adicionando um efeito só para desbloquear a imaginação
+    for(i=.5;i>.0;i-=.2){
+     ctx.beginPath();
+     ctx.arc(x*i,y*i,40*i,0,2*Math.PI);
+     ctx.stroke();
+    }
+
+    setTimeout("loop()", 10)
+   }loop();
+
+  </script>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="300" height="34" viewBox="0 0 300 34">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 33px;
+        
+      }
+
+      .cls-2 {
+        text-anchor: middle;
+        font-family: "Press Start 2P";
+        fill: transparent;
+        animation: preenchimento 3s ease-in-out forwards 1;
+      }
+
+      @keyframes preenchimento{
+        to {
+            fill: #BE253F;
+        }
+
+      }
+
+
+
+    </style>
+  </defs>
+  <text x="151" y="35" class="cls-1"><tspan x="151" class="cls-2">GAME OVER</tspan></text>
+</svg>
+
+ </body>
+</html>
+
+<body>
+<noscript>Seu navegador não suporta JavaScriptou ele está desabilitado.
+</noscript>
+<button id="Ola"> Clique Aqui </button>
+</body>
+</html>

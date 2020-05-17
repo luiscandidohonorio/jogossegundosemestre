@@ -7,5 +7,5 @@
 [HTML](https://luiscandidohonorio.github.io/jogosweb/atividadehelloworld.html)
 [HTML](https://luiscandidohonorio.github.io/jogosweb/atividadeconhecimento.html)
 [HTML](https://luiscandidohonorio.github.io/jogosweb/atividadeexemplo.html)
-[HTML](https://luiscandidohonorio.github.io/jogosweb/atividadeconhecimento.html
+[HTML](https://luiscandidohonorio.github.io/jogosweb/atividadeconhecimento.html)
 [HTML](https://luiscandidohonorio.github.io/jogosweb/atividadejogosdigitais.html)

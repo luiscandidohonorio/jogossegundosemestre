@@ -1,6 +1,6 @@
 # jogosweb
 
-[HTML](https://luiscandidohonorio.github.io/jogosweb/Atividade1.html) 
+[HTML](https://luiscandidohonorio.github.io/jogosweb/atividade1.html) 
 
 [HTML](https://luiscandidohonorio.github.io/jogosweb/atividade_180042_05052020.html)
 

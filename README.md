@@ -14,3 +14,5 @@
 [PDF](https://luiscandidohonorio.github.io/jogosweb/081112_progr_obj.pdf)
 [PDF](https://luiscandidohonorio.github.io/jogosweb/Desenvolvimento%20de%20jogos%203D.pdf)
 [PDF](https://luiscandidohonorio.github.io/jogosweb/TMEGA_WertherNeto.pdf)
+[PDF](https://luiscandidohonorio.github.io/jogosweb/1882-Texto_do_artigo-5812-1-10-20180927.pdf)
+[DOCX](http://luiscandidohonorio.github.io/jogosweb/SUPER_M%C3%81RIO_BROS_x_SYOBON_ACTION.docx)

@@ -22,3 +22,9 @@
 [HTML](https://luiscandidohonorio.github.io/jogosweb/cssdesk%20(1).html)
 
 [HTML](https://luiscandidohonorio.github.io/jogosweb/cssdesk%20(2).html)
+
+[PDF](https://luiscandidohonorio.github.io/jogosweb/081112_progr_obj.pdf)
+
+[PDF](https://luiscandidohonorio.github.io/jogosweb/Desenvolvimento%20de%20jogos%203D.pdf)
+
+[PDF](https://luiscandidohonorio.github.io/jogosweb/TMEGA_WertherNeto.pdf)
